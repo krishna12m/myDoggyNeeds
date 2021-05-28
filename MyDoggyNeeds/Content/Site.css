@@ -1,0 +1,233 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.navbar-inverse {
+    background-color: #355643 !important;
+    border-bottom: #355643 !important;
+}
+
+.mynavbar .container .myheader .navbar-brand 
+{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    background: url("Images/doggy.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+    /*// linear-gradient(rgb(27, 26, 26), rgba(78, 76, 76, 0)),*/
+}
+.home .max-width 
+{
+        margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1
+{
+        font-size: 25px;
+        width: 50%;
+
+}
+
+.home .home-content .text-2
+{
+        font-size: 38px;
+
+        font-weight: 600;
+        margin-left: -3px;
+     
+}
+.home .home-content .text-2 .love 
+    {
+            font-family: 'Lobster', cursive;
+    }
+
+
+
+
+
+/*.btn 
+{
+    padding: 6px 6px;
+    margin-bottom: 8px;
+    border: 1px solid #355643;
+    font-family: 'ubuntu', sans-serif;
+   
+ 
+}*/
+.btn
+{
+    text-decoration:none;
+    border: 2px solid white;
+    color:white;
+    /*font:bold;*/
+}
+    .btn:hover {
+        color: #355643;
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid #355643;
+    }
+.mybtn {
+    padding: 6px 6px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    border: 2px solid #355643;
+    border-radius: 5px;
+    color: #355643;
+    font-weight: bold;
+}
+ .mybtn:hover
+ {
+        color: white;
+        text-decoration: none;
+        background-color: #355643;
+        border: 1px solid white;
+ }
+h2 {
+    font-weight: bold;
+    color: #355643;
+}
+h3 {
+    font-weight: bold;
+    color: #355643;
+}
+h4 {
+    font-weight: bold;
+    color: #355643;
+}
+table > thead > tr > th {
+    font-weight: bold;
+    color: #355643;
+    margin-bottom:5px;
+}
+.centertitle
+{
+    text-align:center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+.control-label {
+    color: #355643;
+}
+
+.form-control {
+    border: 1px solid #355643;
+    color: #355643;
+}
+
+.mydiv {
+    text-align: center;
+}
+
+.dl-horizontal {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+    background: #c3cbc6;
+    padding: 10px;
+    width: 500px;
+}
+
+.dl-horizontal dt, .dl-horizontal dd 
+{
+        /*margin: 0;*/
+        margin-bottom: 2px;
+        /*display: inline;*/
+}
+
+    .dl-horizontal dt {
+        padding-right: 16px;
+    }
+
+dl-horizontal dd:after {
+    content: '';
+    display: block;
+}
+
+.centerbtn {
+    text-align: center;
+}
+/*.dl-horizontal {
+    display: inline-block;
+    overflow: hidden;
+    text-align: left;
+    background: #93a99d;
+    padding: 10px;
+    width: 300px;
+}
+.dl-horizontal dt, .dl-horizontal dd {
+        margin: 0;
+        margin-bottom: 2px;
+        display: inline;
+    }
+
+.dl-horizontal dt 
+{
+   padding-right: 15px;
+}
+
+dl-horizontal dd:after {
+    content: '';
+    display: block;
+}
+
+p {
+    text-align: center;
+}*/
+        
+
+
+
+
+
+
+footer {
+    background-color: #355643 !important;
+    padding: 16px;
+}
+
+    footer p {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+

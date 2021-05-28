@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">
+                Connecting dog owners with local dog borrowers for
+                walks, weekends and holidays.
+            </div>
+            <div class="text-2">Share your <span class="love">LOVE</span> for dogs</div>
+          
+          @Html.ActionLink("Get Started as an Owner", "Register", "Account", null, new { @class = "btn"})
+            @Html.ActionLink("Get Started as a Borrower", "Register", "Account", null, new {@class = "btn"})
+
+        </div>
+    </div>
+</section>
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Get Started as an Owner</h2>
+        <p>
+            Find a truested dog lover to take care of your dog when you can't
+        </p>
+        <div>
+            @Html.ActionLink("Get Started as an Owner", "Register", "Account", null, new { @class = "mybtn" })
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Get Staretd as a Borrower</h2>
+        <p>Fill the dog void in your life by spending time with one and helping out Owners at the same time. </p>
+        <div>
+            @Html.ActionLink("Get Started as a Borrower", "Register", "Account", null, new { @class = "mybtn" })
+        </div>
+    </div>
+</div>

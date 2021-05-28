@@ -1,0 +1,72 @@
+﻿@model MyDoggyNeeds.Models.Dog
+@*@model IEnumerable<MyDoggyNeeds.Models.Dog>*@
+
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 class="centertitle">Dod's Details</h2>
+<div class="mydiv">
+    <h4>@*Dog*@</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Fname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Fname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Line1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Line1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.City)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Postcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Postcode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Phone)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Owner.Needs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Needs)
+        </dd>*@
+
+    </dl>
+</div>
+<p class="centerbtn">
+    @Html.ActionLink("Back to List", "Index",null, new { @class = "mybtn"})
+</p>
+
+
